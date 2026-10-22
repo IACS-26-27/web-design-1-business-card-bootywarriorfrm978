@@ -1,9 +1,8 @@
 /* RESET: Browsers add space above and below headings and paragraphs.
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
-p,
-{
-text-align: center;
+<p> {
+  text-align: center;
 }
 
 h1,
