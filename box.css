@@ -2,6 +2,10 @@
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
 p,
+{
+text-align: center;
+}
+
 h1,
 h2,
 h3,
