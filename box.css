@@ -1,9 +1,7 @@
 /* RESET: Browsers add space above and below headings and paragraphs.
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
-<p> {
-  text-align: center;
-}
+
 
 h1,
 h2,
@@ -28,6 +26,16 @@ h6 {
  * (no flexbox or grid). */
 .card h1 {
   /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: rgb(200, 178, 178);
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  color: azure;
+}
+
+.card-front {
+  background-image: url(./images/front-card.png);
+  background-size: cover;
 }
