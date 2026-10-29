@@ -31,8 +31,16 @@ h6 {
   align-items: flex-start;
   flex-direction: column;
   padding-left: 20px;
-  gap: 13px;
+  font-size: 30px;
 }
+
+.card-back {
+  background-image: url(./images/flexback.png);
+  background-size: cover;
+}
+
+
+
 
 /* Honors: styles for each card size, for example:
 .square .card-front {
