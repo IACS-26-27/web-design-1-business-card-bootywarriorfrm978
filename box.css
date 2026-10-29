@@ -1,7 +1,8 @@
 /* RESET: Browsers add space above and below headings and paragraphs.
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
-p,
+
+
 h1,
 h2,
 h3,
@@ -23,8 +24,40 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
+
+/* Demo style -- remove me and write your own */
+.card h2 {
+  color: rgb(255, 255, 255);
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 27px;
+}
+
 .card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  text-align: center;
+  color: rgb(249, 249, 249);
+  width: 300px;
+  height: 20px;
+  margin-right: 60px;
+  padding-top: 13px;
+  font-family: "UnifrakturMaguntia", sans-serif;
+
+}
+
+.card-front {
+  background-image: url(./images/front-card.png);
+  background-size: cover;
+}
+
+.card p {
+  color: rgb(255, 255, 255);
+  border-left: 30px;
+  padding-left: 20px;
+  font-size: medium;
+
+}
+
+.card-back {
+  background-image: url(./images/back-card.png);
+  background-size: cover;
 }

@@ -22,6 +22,39 @@ h6 {
 
 /* Your flexbox card styles go here! */
 .card-front {
+  color: white;
+  background-image: url(./images/front-card.png);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.card-back {
+  background-image: url(./images/flexback.png);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.top {
+  font-size: xx-large;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Honors: styles for each card size, for example:
